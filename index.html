@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Alura Geek</title>
+</head>
+
+<body>
+  <header class="header__container">
+    <img src="assets/heart.png" alt="Corações">
+    <h1>Alura Geek</h1>
+  </header>
+
+
+  <main>
+    <section class="form__section">
+      <div class="form__title">
+        <h2>Adicionar Produto:</h2>
+      </div>
+
+      <form id="productForm">
+        <div>
+          <label for="nome"></label>
+          <input type="text" id="nome" class="input__type" placeholder="Nome do produto..." required />
+        </div>
+        <div>
+          <label for="preco"></label>
+          <input type="number" id="preco" class="input__type" placeholder="Preço..." required/>
+        </div>
+        <div>
+          <label for="imagem"></label>
+          <input type="text" id="imagem" class="input__type" placeholder="URL da imagem..." required/>
+        </div>
+
+        <div class="botao">
+          <button  type="submit" class="botao__guardar">Guardar</button>
+          <button type="button" id="clearForm" class="botao__limpar">Limpar</button>
+        </div>
+        
+      </form>
+
+      
+
+    </section>
+
+    <section class="produtos">
+      <div class="title__produtos">
+        <h2>Meus produtos:</h2>
+      </div>
+
+      <div class="salsicha">
+        <ul id="productList" class="lista__produtos">
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto2.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto2.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto2.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto2.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto2.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Stormtrooper</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+          <li class="produto">
+            <img src="assets/produto1.png" alt="">
+            <p class="produto__nome">Game Boy Classic</p>
+            <div class="produto__info">
+              <div>
+                <p><span>$</span>
+                  60,00
+                </p>
+              </div>
+              <img src="assets/trash.svg" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="hero">
+      <img src="assets/heart.png" alt="Corações">
+      <h1>Alura Geek</h1>
+    </div>
+    <p>Desenvolvido por Deyvola</p>
+    <p>Alura Latam- 202x</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
